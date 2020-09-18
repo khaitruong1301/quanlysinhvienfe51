@@ -35,4 +35,10 @@ var SinhVienService = function (){
 
         return promise;
     }
+
+    //Tính năng tìm kiếm sinh viên
+    this.timKiemSinhVien = function (keyword) {
+        console.log('chức năng tìm kiếm sinh viên');
+        return ''
+    }
 }
